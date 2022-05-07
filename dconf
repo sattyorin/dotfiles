@@ -19,3 +19,9 @@ name='tmux'
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+enabled-extensions=['wsmatrix@martin.zurowietz.de']
+
+[org/gnome/shell/extensions/wsmatrix]
+num-rows=3
