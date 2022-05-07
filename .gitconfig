@@ -1,0 +1,7 @@
+[user]
+    email = sattyorin.sattyon@gmail.com
+    name = sattyorin
+[core]
+    editor = vim
+[alias]
+    history = log --oneline --graph --all --decorate
