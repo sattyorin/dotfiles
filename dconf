@@ -24,4 +24,8 @@ sleep-inactive-ac-type='nothing'
 enabled-extensions=['wsmatrix@martin.zurowietz.de']
 
 [org/gnome/shell/extensions/wsmatrix]
+num-columns=3
 num-rows=3
+
+[org/gnome/mutter]
+dynamic-workspaces=false
