@@ -67,22 +67,22 @@
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+l",
+    "key": "ctrl+e",
     "command": "cursorWordEndRight",
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+h",
+    "key": "ctrl+b",
     "command": "cursorWordLeft",
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+shift+l",
+    "key": "ctrl+shift+e",
     "command": "cursorWordEndRightSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+shift+h",
+    "key": "ctrl+shift+b",
     "command": "cursorWordLeftSelect",
     "when": "textInputFocus"
   },
@@ -100,5 +100,25 @@
     "key": "ctrl+r",
     "command": "editor.action.startFindReplaceAction",
     "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "cursorPageDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "cursorPageUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "cursorLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "cursorRight",
+    "when": "textInputFocus"
   }
 ]
