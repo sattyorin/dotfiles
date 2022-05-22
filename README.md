@@ -7,3 +7,10 @@ ln -s {absolute pass}
 ```
 dconf load / < dconf
 ```
+
+## zplug
+```
+git clone https://github.com/zplug/zplug.git
+zplug install
+```
+
