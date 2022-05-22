@@ -2,5 +2,11 @@
     "window.zoomLevel": 2,
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
-    "C_Cpp.clang_format_style": ".clang-format"
+    "C_Cpp.clang_format_style": ".clang-format",
+    "python.analysis.extraPaths": [
+        "/usr/local/lib/python3.8/dist-packages",
+        "/usr/lib/python3/dist-packages",
+        "/usr/lib/python3.8/dist-packages",
+        "/home/${env:USERNAME}/.local/lib/python3.8/site-packages"
+    ]
 }
