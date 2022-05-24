@@ -73,6 +73,7 @@ eval "$(pyenv init --path)"
 source /opt/ros/noetic/setup.zsh
 alias cm='catkin_make'
 alias python='python3'
+alias ls='ls --color=auto'
 
 export MUJOCO_PY_MJKEY_PATH=~/.mujoco/mjkey.txt
 export MUJOCO_PY_MJPRO_PATH=~/.mujoco/mjpro131
@@ -80,8 +81,14 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/${USERNAME}/.mujoco/mjpro131/bin
 export MUJOCO_PY_MJPRO_PATH=~/.mujoco/mujoco-2.1.1
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/${USERNAME}/.mujoco/mujoco-2.1.1/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/${USERNAME}/.mujoco/mujoco200/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/${USERNAME}/.mujoco/mujoco210/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.5/targets/x86_64-linux/lib
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
-alias MJPL='LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so:/usr/lib/nvidia-367/libGL.so' #?
+alias MJPL='LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so:/usr/lib/nvidia-367/libGL.so' #pddm
 export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so:/usr/lib/x86_64-linux-gnu/libGL.so.1
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
+
+export MUJOCO_PY_MJPRO_PATH=~/.mujoco/mujoco210
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/targets/x86_64-linux/lib
+# export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 
