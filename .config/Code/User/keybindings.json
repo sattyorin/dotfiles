@@ -130,5 +130,15 @@
     "key": "alt+j",
     "command": "editor.action.moveLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "cursorRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "cursorLeftSelect",
+    "when": "textInputFocus"
   }
 ]
