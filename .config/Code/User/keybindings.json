@@ -140,5 +140,10 @@
     "key": "ctrl+shift+h",
     "command": "cursorLeftSelect",
     "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "deleteLeft",
+    "when": "textInputFocus"
   }
 ]
