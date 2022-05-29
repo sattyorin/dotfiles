@@ -94,3 +94,9 @@ export MUJOCO_PY_MJPRO_PATH=~/.mujoco/mujoco210
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/targets/x86_64-linux/lib
 # export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/sattyorin/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/home/sattyorin/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/sattyorin/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/sattyorin/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
