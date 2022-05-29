@@ -100,3 +100,5 @@ if [ -f '/home/sattyorin/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/ho
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/sattyorin/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/sattyorin/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+alias cdp='cd ~/pfrobotics/catkin_ws && source devel/setup.zsh'
