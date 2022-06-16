@@ -8,5 +8,6 @@
         "/usr/lib/python3/dist-packages",
         "/usr/lib/python3.8/dist-packages",
         "/home/${env:USERNAME}/.local/lib/python3.8/site-packages"
-    ]
+    ],
+    "cSpell.userWords": []
 }

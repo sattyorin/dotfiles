@@ -76,6 +76,7 @@ source /opt/ros/noetic/setup.zsh
 alias cm='catkin_make'
 alias python='python3'
 alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 
 export MUJOCO_PY_MJKEY_PATH=~/.mujoco/mjkey.txt
 export MUJOCO_PY_MJPRO_PATH=~/.mujoco/mjpro131
