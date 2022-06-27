@@ -103,3 +103,5 @@ if [ -f '/home/sattyorin/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/ho
 if [ -f '/home/sattyorin/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/sattyorin/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 alias cdp='cd ~/pfrobotics/catkin_ws && source devel/setup.zsh'
+
+export PATH="$HOME/.poetry/bin:$PATH"
