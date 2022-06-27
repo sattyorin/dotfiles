@@ -65,7 +65,7 @@ zle -N peco-cdr
 bindkey '^E' peco-cdr 
 
 # pyenv
-if [ -f "/home/${USERNAME}/.pyenv" ]; then
+if [ -d "/home/${USERNAME}/.pyenv" ]; then
 export PYENV_ROOT="/home/${USERNAME}/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
