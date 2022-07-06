@@ -77,6 +77,12 @@ alias cm='catkin_make'
 alias python='python3'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias xargs='xargs '
+function find_name(){find -name '*'$1}
+alias f='find_name'
+function xargs_grep(){xargs grep -r $1}
+alias xg='xargs_grep'
+# ex.) f py |xg 10
 
 export MUJOCO_PY_MJKEY_PATH=~/.mujoco/mjkey.txt
 export MUJOCO_PY_MJPRO_PATH=~/.mujoco/mjpro131
