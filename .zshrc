@@ -91,7 +91,7 @@ export MUJOCO_PY_MJPRO_PATH=~/.mujoco/mujoco-2.1.1
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/${USERNAME}/.mujoco/mujoco-2.1.1/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/${USERNAME}/.mujoco/mujoco200/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/${USERNAME}/.mujoco/mujoco210/bin
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.5/targets/x86_64-linux/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/targets/x86_64-linux/lib
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
 alias MJPL='LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so:/usr/lib/nvidia-367/libGL.so' #pddm
 export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so:/usr/lib/x86_64-linux-gnu/libGL.so.1
@@ -102,17 +102,12 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/targets/x86_64-linux/lib
 # export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 
 
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/sattyorin/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/home/sattyorin/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/sattyorin/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/sattyorin/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
 alias cdp='cd ~/pfrobotics/catkin_ws && source devel/setup.zsh'
 
 export PATH="$HOME/.poetry/bin:$PATH"
-
-# export ROS_MASTER_URI="http://172.18.209.171:11311"
-# export ROS_IP="172.18.209.198"
-export ROS_MASTER_URI="http://localhost:11311"
-
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/sattyorin/google-cloud-sdk/path.zsh.inc' ]; then . '/home/sattyorin/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/sattyorin/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/sattyorin/google-cloud-sdk/completion.zsh.inc'; fi

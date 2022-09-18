@@ -3,6 +3,5 @@
     name = sattyorin
 [core]
     editor = vim
-    excludesfile = ~/pfrobotics/.mygitignore
 [alias]
     history = log --oneline --graph --all --decorate
