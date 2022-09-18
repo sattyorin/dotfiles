@@ -1,6 +1,5 @@
 {
     "window.zoomLevel": 2,
-    "editor.tabSize": 2,
     "files.insertFinalNewline": true,
     "C_Cpp.clang_format_style": ".clang-format",
     "python.analysis.extraPaths": [
@@ -9,5 +8,11 @@
         "/usr/lib/python3.8/dist-packages",
         "/home/${env:USERNAME}/.local/lib/python3.8/site-packages"
     ],
-    "cSpell.userWords": []
+    "cSpell.userWords": [
+        "qpos"
+    ],
+    "editor.tabSize": 2,
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.occurrencesHighlight": false,
+    "editor.unicodeHighlight.nonBasicASCII": false
 }
