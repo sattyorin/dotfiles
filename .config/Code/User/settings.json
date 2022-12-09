@@ -13,5 +13,23 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "vim.useSystemClipboard": true,
     "editor.formatOnSave": true,
-    "C_Cpp.clang_format_path": "/usr/bin/clang-format"
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                "undo"
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "commands": [
+                "redo"
+            ]
+        },
+    ]
 }
