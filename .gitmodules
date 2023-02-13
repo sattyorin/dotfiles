@@ -1,0 +1,3 @@
+[submodule "onedark.vim"]
+	path = onedark.vim
+	url = git@github.com:joshdick/onedark.vim.git
