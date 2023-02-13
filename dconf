@@ -9,7 +9,7 @@ switch-to-workspace-right=['<Ctrl><Alt>l']
 switch-to-workspace-up=['<Ctrl><Alt>k']
 
 [org/gnome/desktop/wm/preferences]
-num-workspaces=9
+num-workspaces=12
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Primary><Alt>t'
@@ -24,7 +24,7 @@ sleep-inactive-ac-type='nothing'
 enabled-extensions=['wsmatrix@martin.zurowietz.de']
 
 [org/gnome/shell/extensions/wsmatrix]
-num-columns=3
+num-columns=4
 num-rows=3
 
 [org/gnome/mutter]
