@@ -38,6 +38,7 @@
     "python.formatting.blackPath": "/home/sattyorin/.local/bin/black",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true,
     },
     "editor.formatOnSave": true
 }
