@@ -1,8 +1,5 @@
 # dotfiles
 
-## ln
-ln -s {absolute pass}
-
 ## wsmatrix
 https://extensions.gnome.org/extension/1485/workspace-matrix/
 version: Setting -> About -> GNOME Version
