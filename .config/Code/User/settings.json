@@ -31,14 +31,20 @@
         },
     ],
     "window.zoomLevel": 2,
-    "python.formatting.provider": "black",
-    "python.linting.enabled": true,
-    "python.linting.flake8Enabled": true,
     "python.defaultInterpreterPath": "/bin/python3",
-    "python.formatting.blackPath": "/home/sattyorin/.local/bin/black",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnType": true,
     },
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "deepl.apiKey": "fa603094-5289-8e95-9b8c-63f2126b4a47:fx",
+    "cmake.configureOnOpen": true,
+    "hediet.vscode-drawio.resizeImages": null,
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "java.format.settings.profile": "GoogleStyle",
+    "java.checkstyle.configuration": "${workspaceFolder}/google_checks.xml",
+    "java.checkstyle.version": "10.12.2",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    }
 }
