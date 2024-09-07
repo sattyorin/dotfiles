@@ -16,3 +16,5 @@ git clone https://github.com/zplug/zplug.git
 zplug install
 ```
 
+## vim-plug
+https://github.com/junegunn/vim-plug
